@@ -69,12 +69,12 @@ export default function App() {
             e.target.classList.contains('main--grid-area20') ||
             e.target.classList.contains('main--grid-area21')) 
             {
-            setPart('— SADDLE')
+            setPart('— CЕДЛА')
             setSaddleToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area23')) 
             {
-            setPart('— GRIPS, BRAKE LEVERS, SHIFT LEVERS, HANDLEBAR, STEM')
+            setPart('— ТҰРҒАНДАР, ТЕЖЕГІЗ РЫЧАГТАР, АУЫСЫМ РЫЧАГТАРЫ, тұтқа, штанга')
             setGripToggle('show')
             setBrakeToggle('show')
             setShifterToggle('show')
@@ -83,36 +83,36 @@ export default function App() {
             e.target.classList.contains('main--grid-area32') ||
             e.target.classList.contains('main--grid-area33')) 
             {
-            setPart('— RACK')
+            setPart('— сөре')
             setRackToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area34')) 
             {
-            setPart('— SEATPOST, SEATPOST COLLAR')
+            setPart('— орындық бағанасы, отырғыштың жағасы')
             setSeatpostToggle('show')
             setcollarToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area35') ||
             e.target.classList.contains('main--grid-area36')) 
             {
-            setPart('— FRAME: TOP TUBE')
+            setPart('— жақтау: жоғарғы түтік')
             setFrameToggle('SHOW')
         } else if (
             e.target.classList.contains('main--grid-area37')) 
             {
-            setPart('— HEADSET, FRAME: HEAD TUBE')
+            setPart('— гарнитура, жақтау: бас түтік')
             setFrameToggle('show')
             setHeadsetToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area38')) 
             {
-            setPart('— BRAKE HOUSING, BRAKE CABLE, SHIFT HOUSING, SHIFT CABLE')
+            setPart('— тежегіш корпусы, тежегіш кабель, ауысым корпусы, ауысым кабелі')
             setHousingToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area46') ||
             e.target.classList.contains('main--grid-area47')) 
             {
-            setPart('— RACK, FENDER, TIRE, TUBE, RIM, SPOKES')
+            setPart('— тартпа, қоршау, шина, түтік, жиек, спиц')
             setRackToggle('show')
             setFenderToggle('show')
             setTireToggle('show')
@@ -122,24 +122,24 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area48')) 
             {
-            setPart('— REAR BRAKES, BRAKE PADS, FRAME: SEAT STAYS')
+            setPart('— артқы үзілістер, тежегіш төсемдер, жақтау: орындық тіректер')
             setFrameToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area49')) 
             {
-            setPart('— LOCK, FRAME: SEAT TUBE')
+            setPart('— құлып, жақтау: отыратын түтік')
             setLockToggle('show')
             setFrameToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area50')) 
             {
-            setPart('— BOTTLE CAGE, FRAME: DOWN TUBE')
+            setPart('— бөтелке торы, жақтау: төмен түтік')
             setCageToggle('show')
             setFrameToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area51')) 
             {
-            setPart('— FORK, FENDER, TIRE, TUBE, RIM, SPOKES')
+            setPart('— шанышқы, қоршау, шина, түтік, жиек, спиц')
             setFenderToggle('show')
             setTireToggle('show')
             setTubeToggle('show')
@@ -148,7 +148,7 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area52')) 
             {
-            setPart('— FRONT BRAKES, BRAKE PADS, FENDER, TIRE, TUBE, RIM, SPOKES')
+            setPart('— алдыңғы тежегіштер, тежегіш қалқандар, қоршау, шина, түтік, жиек, спиц')
             setFenderToggle('show')
             setTireToggle('show')
             setTubeToggle('show')
@@ -157,7 +157,7 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area53')) 
             {
-            setPart('— TIRE, TUBE, RIM, SPOKES')
+            setPart('— шина, түтік, жиек, спиц')
             setTireToggle('show')
             setTubeToggle('show')
             setRimToggle('show')
@@ -165,12 +165,12 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area59')) 
             {
-            setPart('— FENDER')
+            setPart('— қалқан')
             setFenderToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area60')) 
             {
-            setPart('— TIRE, TUBE, RIM, SPOKES')
+            setPart('— шина, түтік, жиек, спиц')
             setTireToggle('show')
             setTubeToggle('show')
             setRimToggle('show')
@@ -178,13 +178,13 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area61')) 
             {
-            setPart('— CASSETTE, WHEEL SKEWER')
+            setPart('— кассета, дөңгелек')
             setCassetteToggle('show')
             setSkewerToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area62')) 
             {
-            setPart('— FRAME: CHAIN STAYS, CHAIN, SPOKES, RIM, TUBE, TIRE')
+            setPart('— жақтау: шынжыр тірек, шынжыр, спиц, жиек, түтік, шина')
             setChainToggle('show')
             setFrameToggle('show')
             setChainToggle('show')
@@ -195,7 +195,7 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area63')) 
             {
-            setPart('— LOCK, FRAME: SEAT TUBE, FRONT DERAILLEUR, CHAINRING, CRANK ARM')
+            setPart('— құлып, жақтау: отыратын түтік, алдыңғы ауыстырғыш')
             setLockToggle('show')
             setFrontDerailToggle('show')
             setFrameToggle('show')
@@ -204,13 +204,13 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area64')) 
             {
-            setPart('— FRAME: DOWN TUBE, PEDAL')
+            setPart('— жақтау: төмен түтік, педаль')
             setFrameToggle('show')
             setPedalToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area65')) 
             {
-            setPart('— FENDER, TIRE, TUBE, RIM, SPOKES')
+            setPart('— қоршау, шина, түтік, жиек, спиц')
             setFenderToggle('show')
             setTireToggle('show')
             setTubeToggle('show')
@@ -219,12 +219,12 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area66')) 
             {
-            setPart('— FORK, WHEEL SKEWER')
+            setPart('— шұңқыр, доңғалақ')
             setSkewerToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area67')) 
             {
-            setPart('— SPOKES, RIM, TUBE, TIRE')
+            setPart('— қалқан')
             setSpokeToggle('show')
             setRimToggle('show')
             setTubeToggle('show')
@@ -232,17 +232,17 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area68')) 
             {
-            setPart('— TIRE')
+            setPart('— шина')
             setTireToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area73')) 
             {
-            setPart('— FENDER')
+            setPart('— қалқан')
             setFenderToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area74')) 
             {
-            setPart('— FENDER, TIRE, TUBE, RIM, SPOKES')
+            setPart('— қалқан, шина, түтік, жиек, спиц')
             setFenderToggle('show')
             setTireToggle('show')
             setTubeToggle('show')
@@ -251,13 +251,13 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area75')) 
             {
-            setPart('— REAR DERAILLEUR, CHAIN')
+            setPart('— артқы ауыстырғыш, шынжыр')
             setChainToggle('show')
             setRearDerailToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area76')) 
             {
-            setPart('— CHAIN, SPOKES, RIM, TUBE, TIRE')
+            setPart('— шынжыр, спиц, жиек, түтік, шина')
             setChainToggle('show')
             setSpokeToggle('show')
             setRimToggle('show')
@@ -266,20 +266,20 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area77')) 
             {
-            setPart('— CHAIN, CHAINRING, CRANK ARM')
+            setPart('— шынжыр, шынжыр, иінді қол')
             setChainToggle('show')
             setChainringToggle('show')
             setCrankarmToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area78')) 
             {
-            setPart('— PEDAL, FENDER')
+            setPart('— педаль, қоршау')
             setPedalToggle('show')
             setFenderToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area79')) 
             {
-            setPart('— FENDER, TIRE, TUBE, RIM, SPOKES')
+            setPart('— қоршау, шина, түтік, жиек, спиц')
             setFenderToggle('show')
             setTireToggle('show')
             setTubeToggle('show')
@@ -288,12 +288,12 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area80')) 
             {
-            setPart('— SPOKES')
+            setPart('— спиц')
             setSpokeToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area81')) 
             {
-            setPart('— SPOKES, RIM, TUBE, TIRE')
+            setPart('— шина, түтік, жиек, спиц')
             setSpokeToggle('show')
             setRimToggle('show')
             setTubeToggle('show')
@@ -301,7 +301,7 @@ export default function App() {
         } else if (
             e.target.classList.contains('main--grid-area82')) 
             {
-            setPart('— TIRE')
+            setPart('— шина')
             setTireToggle('show')
         } else if (
             e.target.classList.contains('main--grid-area88') ||
@@ -312,7 +312,7 @@ export default function App() {
             e.target.classList.contains('main--grid-area95')
             ) 
             {
-            setPart('— TIRE, TUBE, RIM, SPOKES')
+            setPart('— шина, түтік, жиек, спиц')
             setTireToggle('show')
             setTubeToggle('show')
             setRimToggle('show')
@@ -370,13 +370,10 @@ export default function App() {
     return ( 
         <>
             <nav>
-                <h1>BIKE PARTS</h1>
+                <h1>ВЕЛОСИПЕД БӨЛШЕКТЕРІ</h1>
                 <h1 className='nav--part-name'>{part}</h1>
-                <h1 onClick={handleOnClick} className="nav--about">ABOUT</h1>
             </nav>
             <section>
-                <div onClick={handleOnClick} className={`main--about ${aboutToggle}`}> Bike Parts is a resource designed to teach the parts of a bicycle. It is free to use and available for anyone. The aim of this resource is to help lower the barrier to entry in bicycle mechanics especially for folks who have historically been excluded; people of colour, women, queer, trans, and gender non-conforming folks.<br></br><br></br><a href="mailto:hello@alextownson.ca">hello@alextownson.ca</a></div>
-                <div className='main--mobile-app'>Mobile app coming soon!<br></br><br></br>Bike Parts is a resource designed to teach the parts of a bicycle. It is free to use and available for anyone. The aim of this resource is to help lower the barrier to entry in bicycle mechanics especially for folks who have historically been excluded; people of colour, women, queer, trans, and gender non-conforming folks.<br></br><br></br><a href="mailto:hello@alextownson.ca">hello@alextownson.ca</a></div>
                 <img src={bike} className="main--bike" />
                 <img src={parts01} id="chain" className={`main--parts ${chainToggle}`}/>
                 <img src={parts03} id="seat-collar" className={`main--parts ${collarToggle}`} />

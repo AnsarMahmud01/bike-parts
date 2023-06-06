@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://alextownson.github.io/bike-parts/",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
+    "build": "webpack --mode production",
     "serve": "webpack serve",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
